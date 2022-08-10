@@ -7,6 +7,7 @@ export const ProductCardContainer = styled.div`
     width: 100%;
     padding: 1.8rem;
     transition: all 150ms ease-in;
+    cursor: pointer;
     
     &:hover {
         box-shadow: 2px 2px 5px rgba(0,0,0,.3);

@@ -6,15 +6,13 @@ import { ProductCardContainer } from './style';
 function ProductCard({ productName, productDesc, productImage }) {
   return (
       <Link href="/">
-        <a>
-            <ProductCardContainer>
-                <div className='product__card__img'>
-                    <Image src={productImage} width={250} height={250} />
-                </div>
-                <h4>{productName}</h4>
-                <p>{productDesc}</p>
-            </ProductCardContainer>
-        </a>
+        <ProductCardContainer>
+            <div className='product__card__img'>
+                <Image src={productImage} width={250} height={250} />
+            </div>
+            <h4>{productName}</h4>
+            <p>{productDesc}</p>
+        </ProductCardContainer>
     </Link>
   )
 }
