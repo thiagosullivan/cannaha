@@ -20,19 +20,19 @@ function Header() {
                 <Image src={LogoCannahaOne} alt="Cannaha logo"/>
             </div>
             <div className='header__socialM'>
-                <a href="/">
+                <a href="www.facebook.com">
                     <FaFacebookF />
                 </a>
-                <a href="/">
+                <a href="www.facebook.com">
                     <FaInstagram />
                 </a>
-                <a href="/">
+                <a href="www.facebook.com">
                     <FaYoutube />
                 </a>
-                <a href="/">
+                <a href="www.facebook.com">
                     <FaWhatsapp />
                 </a>
-                <a href="/">
+                <a href="www.facebook.com">
                     <FaEnvelope />
                 </a>
             </div>
