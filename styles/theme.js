@@ -4,7 +4,7 @@ const theme = {
     third: '#40AF1A',
     fourth: '#B4E128',
     gradient: 'linear-gradient(225deg, #B4E128 0%, #A3D212 100%);',
-    grey: '#F5F5F5',
+    grey: '#C9C9C9',
     greysecond: '#909090',
     greythird: '#494949',
     white: '#FFFFFF',

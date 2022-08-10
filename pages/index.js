@@ -1,5 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
+import BannerHome from '../components/BannerHome/BannerHome';
+import Header from '../components/Header/Header';
+import HomePresentation from '../components/HomePresentation/HomePresentation';
 
 export default function Home() {
   return (
@@ -10,8 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
       <main>
-        <h1>Cannaha</h1>
+        <BannerHome />
+        <HomePresentation />
       </main>
 
       <footer>
