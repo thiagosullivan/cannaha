@@ -60,7 +60,10 @@ export const HomePresentationContainer = styled.section`
 
     .presentation__bottom {
         border-top: 1px solid ${({theme}) => theme.grey};
-        padding-top: 3.75rem;
+        border-bottom: 1px solid ${({theme}) => theme.grey};
+        padding: 3.75rem 0;
+        width: max-content;
+        margin: 0 auto;
 
         h3 {
             color: ${({theme}) => theme.greythird};
