@@ -1,4 +1,4 @@
-import { lighten } from 'polished';
+import { darken, lighten } from 'polished';
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
@@ -43,5 +43,22 @@ export default createGlobalStyle`
   .disableScroll {
     height: 100%;
     overflow-y: hidden;
+  }
+  .seemore__btn a {
+      background-color: ${({theme}) => theme.primary};
+      color: ${({theme}) => theme.white};
+      font-family: 'Prompt', sans-serif;
+      font-size: 1.3rem;
+      padding: 0.93rem 2.1rem;
+      display: flex;
+      text-align: center;
+      width: max-content;
+      border-radius: 5px;
+      margin: 0 auto 6.25rem;
+      transition: all 150ms ease-in;
+
+      &:hover {
+        background-color: ${({ theme }) => darken(0.2, theme.primary)};
+      }
   }
 `;

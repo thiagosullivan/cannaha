@@ -5,14 +5,13 @@ export const HeaderContainer = styled.header`
     max-width: 1650px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 1rem;
 
     .header__content {
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid ${({theme}) => theme.primary};
-        padding: 1rem 0;
+        padding: 1rem;
         margin-bottom: 2.1rem;
 
         .header__search {
@@ -25,7 +24,7 @@ export const HeaderContainer = styled.header`
                 outline: none;
                 height: 35px;
                 border: 1px solid ${({theme}) => theme.primary};
-                padding-left: 10px;
+                padding: 0 35px 0 10px;
                 color: ${({theme}) => theme.primary};
                 font-family: 'Prompt', sans-serif;
 
