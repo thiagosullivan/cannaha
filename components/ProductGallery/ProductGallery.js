@@ -15,13 +15,13 @@ function ProductGallery() {
           {ImagesGallery.map((img, index) => {
               return (
                 <div
+                  key={index}
                   className='prod__gallery__item'
                   style={{
                     border: selectedImg === img ? "4px solid #579A51" : ""
                   }}
                 >
-                  <Image
-                    key={index}
+                  <Image                    
                     src={img}
                     alt="CBD Oil"
                     layout="fill"                    

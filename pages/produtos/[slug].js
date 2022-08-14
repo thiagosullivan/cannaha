@@ -5,6 +5,7 @@ import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
 import ProductGallery from '../../components/ProductGallery/ProductGallery';
 import ProductPageInfos from '../../components/ProductPageInfos/ProductPageInfos';
+import RelatedProducts from '../../components/RelatedProducts/RelatedProducts';
 
 function ProductPage(){
     return (
@@ -18,6 +19,7 @@ function ProductPage(){
             <main>
                 <Breadcrumb />
                 <ProductPageInfos />
+                <RelatedProducts />
             </main>
             <Footer />
             <ScrollToTop />

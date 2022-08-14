@@ -3,9 +3,9 @@ import Link from 'next/link';
 import React from 'react';
 import { ProductCardContainer } from './style';
 
-function ProductCard({ productName, productDesc, productImage }) {
+function ProductCard({ productName, productDesc, productImage, producUrl }) {
   return (
-      <Link href="/">
+      <Link href={producUrl}>
         <ProductCardContainer>
             <div className='product__card__img'>
                 <Image src={productImage} width={250} height={250} alt={productName}/>

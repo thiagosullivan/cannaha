@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const ProductPageInfosContainer = styled.section`
     max-width: 1650px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 6.25rem;
     padding: 0 1rem;
     display: flex;
 `;
