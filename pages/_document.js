@@ -10,22 +10,22 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Prompt:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet" />
 
         {/* Primary Meta Tags */}
-        <meta name="title" content="IBM - Instituto Brasileiro de Microfisioterapia"/>
-        <meta name="description" content="O IBM Instituto Brasileiro de Microfisioterapia é o único no Brasil autorizado pelo Professor Daniel Grosjean, criador do método, a ministrar curso de microfisioterapia com certificação total"/>
+        <meta name="title" content="Cannaha - CBD"/>
+        <meta name="description" content="Cannaha - CBD"/>
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://www.ibmicrofisioterapia.com.br/"/>
-        <meta property="og:title" content="IBM - Instituto Brasileiro de Microfisioterapia"/>
-        <meta property="og:description" content="O IBM Instituto Brasileiro de Microfisioterapia é o único no Brasil autorizado pelo Professor Daniel Grosjean, criador do método, a ministrar curso de microfisioterapia com certificação total"/>
-        <meta property="og:image" content="https://i.ibb.co/tZfKg7J/Whats-App-Image-2022-06-15-at-08-54-58.jpg"/>
+        <meta property="og:title" content="Cannaha - CBD"/>
+        <meta property="og:description" content="Cannaha - CBD"/>
+        <meta property="og:image" content="https://i.ibb.co/gPYjZQq/cannaha-meta-img.jpg"/>
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://www.ibmicrofisioterapia.com.br/"/>
-        <meta property="twitter:title" content="IBM - Instituto Brasileiro de Microfisioterapia"/>
-        <meta property="twitter:description" content="O IBM Instituto Brasileiro de Microfisioterapia é o único no Brasil autorizado pelo Professor Daniel Grosjean, criador do método, a ministrar curso de microfisioterapia com certificação total"/>
-        <meta property="twitter:image" content="https://i.ibb.co/tZfKg7J/Whats-App-Image-2022-06-15-at-08-54-58.jpg"></meta>
+        <meta property="twitter:title" content="Cannaha - CBD"/>
+        <meta property="twitter:description" content="Cannaha - CBD"/>
+        <meta property="twitter:image" content="https://i.ibb.co/gPYjZQq/cannaha-meta-img.jpg"></meta>
       </Head>
       <body>
         <Main />
