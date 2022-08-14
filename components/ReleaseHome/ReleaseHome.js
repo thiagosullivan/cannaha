@@ -13,19 +13,19 @@ function ReleaseHome() {
                 productName="CBD Oil 2.75% - 10 ml - 275 mg cannabidiol"
                 productDesc="Fusce ut fringilla quam. Pellentesque tempor placerat egestas. Suspendisse pharetra dui a fermentum eleifend"
                 productImage={ProductImg}
-                producUrl="/produtos/cbd-oil"
+                productUrl="/produtos/cbd-oil"
             />
             <ProductCard
                 productName="CBD Oil 2.75% - 10 ml - 275 mg cannabidiol"
                 productDesc="Fusce ut fringilla quam. Pellentesque tempor placerat egestas. Suspendisse pharetra dui a fermentum eleifend"
                 productImage={ProductImg}
-                producUrl="/produtos/cbd-oil"
+                productUrl="/produtos/cbd-oil"
             />
             <ProductCard
                 productName="CBD Oil 2.75% - 10 ml - 275 mg cannabidiol"
                 productDesc="Fusce ut fringilla quam. Pellentesque tempor placerat egestas. Suspendisse pharetra dui a fermentum eleifend"
                 productImage={ProductImg}
-                producUrl="/produtos/cbd-oil"
+                productUrl="/produtos/cbd-oil"
             />
         </div>
 
