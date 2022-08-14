@@ -8,7 +8,7 @@ function ProductCard({ productName, productDesc, productImage }) {
       <Link href="/">
         <ProductCardContainer>
             <div className='product__card__img'>
-                <Image src={productImage} width={250} height={250} />
+                <Image src={productImage} width={250} height={250} alt={productName}/>
             </div>
             <h4>{productName}</h4>
             <p>{productDesc}</p>

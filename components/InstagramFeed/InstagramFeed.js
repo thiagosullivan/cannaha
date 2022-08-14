@@ -14,28 +14,28 @@ function InstagramFeed() {
 
         <div className='instagram__content'>
             <div className='instagram__imgs'>
-                <Image src={InstaOne} layout="responsive"/>
+                <Image src={InstaOne} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaTwo} layout="responsive"/>
+                <Image src={InstaTwo} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaThree} layout="responsive"/>
+                <Image src={InstaThree} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaFour} layout="responsive"/>
+                <Image src={InstaFour} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaFour} layout="responsive"/>
+                <Image src={InstaFour} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaThree} layout="responsive"/>
+                <Image src={InstaThree} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaTwo} layout="responsive"/>
+                <Image src={InstaTwo} layout="responsive" alt='Instagram'/>
             </div>
             <div className='instagram__imgs'>
-                <Image src={InstaOne} layout="responsive"/>
+                <Image src={InstaOne} layout="responsive" alt='Instagram'/>
             </div>
             {/* <Image src={InstaThree} width={400} height={400}/>
             <Image src={InstaThree} width={400} height={400}/>

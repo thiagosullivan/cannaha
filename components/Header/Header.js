@@ -4,6 +4,7 @@ import LogoCannahaOne from '../../assets/logo-cannaha-1.png';
 import Navegation from '../Navegation/Navegation';
 import {FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp, FaEnvelope, FaSearch} from 'react-icons/fa';
 import { HeaderContainer } from './style';
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -17,7 +18,9 @@ function Header() {
                 <FaSearch />
             </div>
             <div className='header__logo'>
-                <Image src={LogoCannahaOne} alt="Cannaha logo"/>
+                <Link href="/">
+                    <Image src={LogoCannahaOne} alt="Cannaha logo"/>
+                </Link>
             </div>
             <div className='header__socialM'>
                 <a href="www.facebook.com">

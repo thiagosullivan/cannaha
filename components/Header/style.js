@@ -40,6 +40,10 @@ export const HeaderContainer = styled.header`
                 font-size: 1.3rem;
             }
         }
+
+        .header__logo {
+            cursor: pointer;
+        }
         
         .header__socialM {
             max-width: 260px;
